@@ -3,9 +3,9 @@ Script to recover AES-ECB encrypted plain text files from known encrypted-plain 
 
 <hr>
 
-This script will load pair values (encrypted block - plaintext block) from a range of provided files, then use those known pairs, try to decrypt blocks on the target files.
+This script will load pair values (encrypted block - plaintext block) from a range of provided files, then use those known pairs and try to decrypt blocks on the target files.
 
-Note that all those files *must* have been encrypted with the same key and key-lenght for this attack to be of any assistance.
+All those files *must* have been encrypted with the same key and key length for this attack to be of any assistance.
 
 # Example
 
